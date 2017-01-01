@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ask</title>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/x-icon" href="images/icon.png"/>
+        <link rel="stylesheet" href="style.css" media="all"/>
+       </head>
+<body>
+  <div class="header"> 
+    <div class="mid" >
+        <headed>
+            <div class="topmenu">
+             <aside>
+                 <a href="#">Про ASK</a>
+                 <a href="#">Політика конфіденціності</a>
+                 <a href="#">Довідка</a>
+                </aside>
+            </div>
+       <a href="/ask/"><img src="images/logo.png" alt="Logo" title="Logo"/></a>
+            <div class="podheader">
+            </div>   
+        </headed>
+      </div>
+  </div>
+    <div class="content"> 
+    <div class="mid">
+        <h3>Форма реєстраціїї</h3>
+        <form action="/subscribe" method="POST">
+            <h4>
+            <label for ="login"> Ваш логін: </label>
+            <!-- <input type="hidden" name="login" th:value="${ask.author}"/>  -->   
+            <input type ="text" id="login" name="login" placeholder="Введіть Ваш Логін:"/> <br/>
+            <label for ="password"> Ваш пароль: </label> 
+            <input type="password" id="password" name="password" placeholder="Введіть ваш пароль:"/><br/>
+            <label for ="sex"> Ваша стать: </label> 
+            <input type="radio" value="male" name="sex"/> Чоловік | <input type="radio" value="female" name="sex"/> Жінка <br/>
+            <input type="checkbox" value="1" name="reg"/> Я погоджуюсь з умовами реєстрації <br/>
+            <input type ="submit" name="submin" value="Відправити"/>
+            </h4>
+        </form>
+      </div>
+  </div> 
+        <div class="footer"> 
+    <div class="mid" >
+        &copy; Копірайт 2016
+      </div>
+  </div>
+</body>
+
+</html>

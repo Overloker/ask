@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ask</title>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/x-icon" href="images/icon.png"/>
+        <link rel="stylesheet" href="style.css" media="all"/>
+       </head>
+<body>
+  <div class="header"> 
+    <div class="mid" >
+        <headed>
+            <div class="topmenu">
+             <aside>
+                 <a href="#">Про ASK</a>
+                 <a href="#">Політика конфіденціності</a>
+                 <a href="#">Довідка</a>
+                </aside>
+            </div>
+        <a href="/ask/"><img th:each="ask: ${posts}" th:src="${ask.text}"  alt="Logo" title="Logo" /></a>
+            <div class="podheader">
+            </div>   
+        </headed>
+      </div>
+  </div>
+    <div class="content"> 
+    <div class="mid" th:each="ask: ${posts}"> 
+        <img src="images/ASKfm1.png" alt="Owl"/>
+        <h3  th:text="${ask.author}" > </h3>
+        <p><a href="#">Увійти</a></p>
+        <p><a href="Register.html">Зареєструватись</a></p>
+      </div>
+  </div> 
+        <div class="footer"> 
+    <div class="mid" >
+        &copy; Копірайт 2016
+      </div>
+  </div>
+</body>
+
+</html>

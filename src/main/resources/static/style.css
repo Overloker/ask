@@ -1,0 +1,29 @@
+.header {background: #2d5592;}
+body{background: #efefef url(images/baground3.png); margin: 0; padding: 0; font: 16px/24px Arial, Tahoma, sans-serif;}
+a{text-decoration: none;}
+
+.mid {width: 1024px; margin: 0 auto; } 
+
+.topmenu {float: right; height: 70px; line-height: 70px;}
+.topmenu a { margin: 0 0 0 10px; color: aqua;}
+.topmenu a:hover{color: azure;}
+
+.content {color: aliceblue;}
+.podheader { padding: 15px 0px 0px 50px; background: url(images/polosa.png) bottom repeat-x;}
+
+.content img{ float:right}
+.content p {text-align: center}
+
+.content a {font-size: 20px; color: aliceblue; border-style: solid; border-width: medium; border-color: #2d5592; font-weight: bold; padding: 5px 15px; border-radius: 5px; box-shadow: 2px 2px 7px -1px #777}
+.content a:hover{ background: #068bac; border: 1px solid #046d88;}
+.content h3{padding: 100px 0px 40px 40px; font-size: 34px; font-weight: 100; text-align: center; color: aliceblue; }
+.content h4 {text-align: center;}
+
+.footer{
+	
+    position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    background:#2d5592;}
+

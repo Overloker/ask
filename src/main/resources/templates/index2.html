@@ -1,0 +1,7 @@
+<table>
+      <tr th:each="b: ${records}">
+        <td th:text="${b.title}">Sample blog title</td>
+        <td th:text="${b.author.name}">Sample author</td>
+        <td th:text="${b.textPreview}">Preview...</td>
+      </tr>
+    </table>
